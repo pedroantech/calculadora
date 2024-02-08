@@ -4,11 +4,12 @@ export default function calculate() {
     resultInput.classList.add("error")
     const result = eval(input.value)
     resultInput.value = result
-    if(result == 19/7){
-        resultInput.value = "❤️❤️❤️"
-    }
+    
     if( result == undefined) {
         resultInput.value = ""
+    }
+    if(result == 19/7){
+        resultInput.value = "❤️❤️❤️"
     }
     resultInput.classList.remove("error")
     
