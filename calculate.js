@@ -8,9 +8,6 @@ export default function calculate() {
     if( result == undefined) {
         resultInput.value = ""
     }
-    if(result == 19/7){
-        resultInput.value = "❤️❤️❤️"
-    }
     resultInput.classList.remove("error")
     
   }
