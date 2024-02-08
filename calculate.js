@@ -4,6 +4,9 @@ export default function calculate() {
     resultInput.classList.add("error")
     const result = eval(input.value)
     resultInput.value = result
+    if(result == 19/7){
+        resultInput.value = "❤️❤️❤️"
+    }
     if( result == undefined) {
         resultInput.value = ""
     }
